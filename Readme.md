@@ -1,8 +1,6 @@
 
 ### `README.md`
 
-```markdown
-
 # Technical Interview with TensorRT-LLM RTX Mixtral
 
 This project demonstrates the optimization and execution of language models using TensorRT-LLM on NVIDIA GPUs. It focuses on leveraging the capabilities of TensorRT to enhance performance in tasks involving large language models like LLaMA or Mixtral, with a particular emphasis on models of 7b size or greater.
