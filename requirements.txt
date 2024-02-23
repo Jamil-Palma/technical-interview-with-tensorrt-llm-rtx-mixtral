@@ -1,0 +1,6 @@
+fpdf2==2.7.8
+langchain==0.1.9
+langchain_community==0.0.24
+langchain_openai==0.0.7
+streamlit==1.31.1
+streamlit_chat==0.1.1
