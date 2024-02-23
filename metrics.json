@@ -1,0 +1,13 @@
+{
+    "difficulty_levels": [
+        "Junior",
+        "Mid-level",
+        "Senior"
+    ],
+    "roles": [
+        "Frontend Developer", "Backend Developer", "Tester"
+    ],
+    "technologies": [
+        "React", "Node.js", "Python", "Java"
+    ]
+}           

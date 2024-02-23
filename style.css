@@ -1,0 +1,95 @@
+/* Estilos personalizados para Streamlit */
+.stButton>button {
+    color: white;
+    border-radius: 20px;
+    background-color: #4CAF50;
+    padding: 10px 24px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease-in-out;
+    width: 100%; /* Hacer que el botón se expanda */
+}
+
+.stButton>button:hover {
+    background-color: #45a049;
+    transform: scale(1.02); /* Escala ligeramente más grande */
+    box-shadow: 0 0 15px rgba(52, 152, 219, 0.4); /* Sombra para el resaltado */
+}
+
+/* Añade transparencia y bordes redondeados a los cuadros de entrada */
+input, select, textarea {
+    background-color: rgba(255, 255, 255, 0.8) !important;
+    border: 1px solid #ddd !important;
+    border-radius: 5px;
+    color: #666 !important;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+/* Efecto de resaltado y crecimiento al pasar el mouse */
+input:hover, select:hover, textarea:hover {
+    transform: scale(1.02);
+    border-color: #3498db !important;
+    box-shadow: 0 0 15px rgba(52, 152, 219, 0.4);
+}
+
+/* Ajusta el ancho de los selectores para que se expandan correctamente */
+.stSelectbox .css-2b097c-container {
+    width: 100%;
+}
+
+/* Ajusta el espaciado entre columnas y elementos de entrada */
+.st-cb, .st-dd {
+    padding: 8px 16px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+    margin-right: 16px; /* Añade un margen a la derecha de cada columna */
+}
+
+.column:last-child {
+    margin-right: 0;
+}
+
+/* Evita que el texto se desborde en los selectores */
+.stSelectbox .css-2b097c-container .css-1uccc91-singleValue {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+/* Mejorar el aspecto del chat */
+.message {
+    background-color: #f5f5f5;
+    border-radius: 15px;
+    padding: 10px; 
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
+    max-width: 80%;
+}
+
+/* Estilizar el input del chat para que se vea más moderno */
+input[type="text"] {
+    border: 2px solid #4CAF50; 
+    border-radius: 20px; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+}
+
+/* Botón de envío para el chat */
+.stButton>button {
+    font-weight: bold; 
+}
+
+.title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: #333;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.2); /* Sombra de texto */
+    letter-spacing: 1.5px; /* Espaciado de letras */
+    text-transform: uppercase; /* Todas las letras en mayúsculas */
+}
+

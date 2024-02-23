@@ -1,0 +1,2 @@
+# technical-interview-with-tensorrt-llm-rtx-mixtral
+Conduct your own professional interviews for various development and programming positions, receive feedback, and get a rating based on your responses, and find out if you're ready for a real interview!! All using AI, with the Mixtral model from your local computer!
